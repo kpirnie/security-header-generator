@@ -1,0 +1,1223 @@
+# Copyright (C) 2025 Security Header Generator
+# This file is distributed under the same license as the Security Header Generator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Security Header Generator\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-30 11:23+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: source/work/common.php:23
+msgid "<h1>PHP To Low</h1><p>Due to the nature of this plugin, it cannot be run on lower versions of PHP.</p><p>Please contact your hosting provider to upgrade your site to at least version 8.1.</p>"
+msgstr ""
+
+#: source/work/common.php:24
+msgid "Cannot Activate: PHP To Low"
+msgstr ""
+
+#: source/work/common.php:36
+msgid "<h1>Cannot Network Activate</h1><p>Due to the nature of this plugin, it cannot be network activated.</p><p>Please go back, and activate inside your subsites.</p>"
+msgstr ""
+
+#: source/work/common.php:37
+msgid "Cannot Network Activate"
+msgstr ""
+
+#: source/work/common.php:140
+msgid "<h3>PHP Upgrade Notice</h3><p>To maintain the security standards of the <strong>Security Header Generator</strong> plugin this will be the final version that supports PHP versions lower than 8.1. Your site must be upgraded in order to update the plugin to future versions.</p><p>Please see here for up to date PHP version information: <a href='https://www.php.net/supported-versions.php' target='_blank'>https://www.php.net/supported-versions.php</a></p>"
+msgstr ""
+
+#: source/work/doc.php:17
+msgid "This plugin generates the proper security HTTP response headers and generates a Content Security Policy if configured to do so"
+msgstr ""
+
+#: source/work/doc.php:18
+msgid "Install"
+msgstr ""
+
+#: source/work/doc.php:20
+msgid "Download the plugin, unzip it, and upload to your sites"
+msgstr ""
+
+#: source/work/doc.php:20
+msgid "directory"
+msgstr ""
+
+#: source/work/doc.php:22
+msgid "You can also upload it directly to your Plugins admin"
+msgstr ""
+
+#: source/work/doc.php:25
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#: source/work/doc.php:27
+msgid "Usage"
+msgstr ""
+
+#: source/work/doc.php:28
+msgid "Head over to the admin section of your site and click &quot;Security Headers&quot;, configure how you need it to be configured.  The configured headers will automatically be implemented."
+msgstr ""
+
+#: source/work/doc.php:29
+msgid "GOTCHA"
+msgstr ""
+
+#: source/work/doc.php:30
+msgid "If your hosting environment is already setting these headers, most likely your settings in this plugin will <strong>NOT</strong> get overwritten with the values you specify"
+msgstr ""
+
+#: source/work/doc.php:31
+msgid "If this is indeed the case, please check with your hosting company if they are, or check your server configuration for the headers getting set.  The plugin will do it's best to override them, but in some environments this is just not possible"
+msgstr ""
+
+#: source/work/doc.php:32
+msgid "Settings"
+msgstr ""
+
+#: source/work/doc.php:34
+msgid "Standard Security Tab"
+msgstr ""
+
+#: source/work/doc.php:37, source/work/doc.php:333, source/work/doc.php:372
+msgid "Apply to Admin"
+msgstr ""
+
+#: source/work/doc.php:39, source/work/doc.php:335, source/work/doc.php:374
+msgid "Select yes or no to apply these same headers to the admin side of your site"
+msgstr ""
+
+#: source/work/doc.php:43
+msgid "Apply to the REST API"
+msgstr ""
+
+#: source/work/doc.php:45
+msgid "Select yes or no to apply these same headers to the REST API of your site. <strong>NOTE:</strong> Due to the default nature of the REST API, the headers will also be applied to the admin areas of the website. You will need to check for breakages after applying."
+msgstr ""
+
+#: source/work/doc.php:49
+msgid "Strict Transport Security"
+msgstr ""
+
+#: source/work/doc.php:52
+msgid "Select Yes or No to have the plugin include the Strict Transport Security header to your site"
+msgstr ""
+
+#: source/work/doc.php:55, source/work/doc.php:77, source/work/doc.php:91, source/work/doc.php:107, source/work/doc.php:123, source/work/doc.php:141, source/work/doc.php:157, source/work/doc.php:171, source/work/doc.php:196, source/work/doc.php:208, source/work/doc.php:221, source/work/doc.php:235, source/work/doc.php:256, source/work/doc.php:278, source/work/doc.php:311, source/work/doc.php:370
+msgid "See here for more information"
+msgstr ""
+
+#: source/work/doc.php:61, source/work/doc.php:241, source/work/doc.php:262, source/work/doc.php:284
+msgid "Configure the directives accordingly"
+msgstr ""
+
+#: source/work/doc.php:63
+msgid "Cache Age: How long should browsers force HTTPS access for, in seconds"
+msgstr ""
+
+#: source/work/doc.php:64
+msgid "Include Subdomains: Include all subdomains in this rule"
+msgstr ""
+
+#: source/work/doc.php:65
+msgid "Preload: This is a Google specification. See here for more information:"
+msgstr ""
+
+#: source/work/doc.php:71
+msgid "Enforce Certificate Transparency"
+msgstr ""
+
+#: source/work/doc.php:74
+msgid "Select Yes or No to have the plugin add a header to enforce Certificate Transparency"
+msgstr ""
+
+#: source/work/doc.php:85
+msgid "Frame Sources"
+msgstr ""
+
+#: source/work/doc.php:88
+msgid "Select Yes or No to have the plugin add a header to configure frame sources"
+msgstr ""
+
+#: source/work/doc.php:96
+msgid "Configure the directive to either decline all framing, or only allow SAMEORIGIN framing"
+msgstr ""
+
+#: source/work/doc.php:101
+msgid "Access Control Methods"
+msgstr ""
+
+#: source/work/doc.php:104
+msgid "Select Yes or No to have the plugin add a header to allow an access control method list."
+msgstr ""
+
+#: source/work/doc.php:112
+msgid "Select the appropriate HTTP methods to allow to access the site. Selecting \"Allow All\" will check or uncheck all methods. Default: GET, POST, HEAD"
+msgstr ""
+
+#: source/work/doc.php:117
+msgid "Access Control Credentials"
+msgstr ""
+
+#: source/work/doc.php:120
+msgid "Select Yes or No to have the plugin add a header to allow access control credentials."
+msgstr ""
+
+#: source/work/doc.php:128
+msgid "Selecting Yes will allow the browser to allow credentials to be set with Javascript, useful for JS driven API calls. Default: Yes"
+msgstr ""
+
+#: source/work/doc.php:135
+msgid "Access Control Origin"
+msgstr ""
+
+#: source/work/doc.php:138
+msgid "Select Yes or No to have the plugin add a header to allow an access control origin."
+msgstr ""
+
+#: source/work/doc.php:146
+msgid "Configure the directive to either add an origin FQDN URL to allow, or use an <code>*</code> to allow all"
+msgstr ""
+
+#: source/work/doc.php:151
+msgid "Prevent MimeType Sniffing"
+msgstr ""
+
+#: source/work/doc.php:154
+msgid "Select Yes or No to have the plugin add a header to prevent mime-type sniffing"
+msgstr ""
+
+#: source/work/doc.php:165
+msgid "Origin Referrers"
+msgstr ""
+
+#: source/work/doc.php:168
+msgid "Select Yes or No to have the plugin add a header to allow only origin referrers"
+msgstr ""
+
+#: source/work/doc.php:176
+msgid "Select Referrer Policy to send"
+msgstr ""
+
+#: source/work/doc.php:178
+msgid "No Referrer: The Referer header will be omitted entirely. No referrer information is sent along with requests"
+msgstr ""
+
+#: source/work/doc.php:179
+msgid "Origin Only: Only send the origin of the document as the referrer"
+msgstr ""
+
+#: source/work/doc.php:180
+msgid "Same Origin: A referrer will be sent for same-site origins, but cross-origin requests will send no referrer information"
+msgstr ""
+
+#: source/work/doc.php:181
+msgid "Strict Origin on Cross Domain: Send the origin, path, and querystring when performing a same-origin request, only send the origin when the protocol security level stays the same while performing a cross-origin request"
+msgstr ""
+
+#: source/work/doc.php:182
+msgid "No Referrer on Downgrade: The origin, path, and querystring of the URL are sent as a referrer when the protocol security level stays the same"
+msgstr ""
+
+#: source/work/doc.php:183
+msgid "Origin on Cross Domain: Send the origin, path, and query string when performing a same-origin request, but only send the origin of the document for other cases"
+msgstr ""
+
+#: source/work/doc.php:184
+msgid "Strict Origin: Only send the origin of the document as the referrer when the protocol security level stays the same"
+msgstr ""
+
+#: source/work/doc.php:185
+msgid "Full Referrer: Send the origin, path, and query string when performing any request, regardless of security"
+msgstr ""
+
+#: source/work/doc.php:191
+msgid "Force Downloads"
+msgstr ""
+
+#: source/work/doc.php:194
+msgid "Select Yes or No to have the plugin add a header to attempt to force downloading resources instead of directly openning them in the browser"
+msgstr ""
+
+#: source/work/doc.php:202
+msgid "Cross Domain Origins"
+msgstr ""
+
+#: source/work/doc.php:205
+msgid "Select Yes or No to have the plugin add a header to block cross domain origins. This generally is only"
+msgstr ""
+
+#: source/work/doc.php:215
+msgid "Upgrade Insecure Requests"
+msgstr ""
+
+#: source/work/doc.php:218
+msgid "Select Yes or No to have the plugin add a header to upgrade insecure requests"
+msgstr ""
+
+#: source/work/doc.php:229
+msgid "Cross Origin Embedder Policy"
+msgstr ""
+
+#: source/work/doc.php:232
+msgid "Select Yes or No to have the plugin include the Cross-Origin-Embedder-Policy header to your site"
+msgstr ""
+
+#: source/work/doc.php:243
+msgid "Allows the document to fetch cross-origin resources without giving explicit permission through the CORS protocol or the Cross-Origin-Resource-Policy header"
+msgstr ""
+
+#: source/work/doc.php:244
+msgid "Forces the document to only load resources from the same origin, or resources explicitly marked as loadable from another origin."
+msgstr ""
+
+#: source/work/doc.php:250
+msgid "Cross Origin Resource Policy"
+msgstr ""
+
+#: source/work/doc.php:253
+msgid "Select Yes or No to have the plugin include the Cross-Origin-Resource-Policy header to your site"
+msgstr ""
+
+#: source/work/doc.php:264
+msgid "Only requests from the same Site can read the resource."
+msgstr ""
+
+#: source/work/doc.php:265
+msgid "Only requests from the same origin (i.e. scheme + host + port) can read the resource."
+msgstr ""
+
+#: source/work/doc.php:266
+msgid "Requests from any origin (both same-site and cross-site) can read the resource. This is useful when COEP is used."
+msgstr ""
+
+#: source/work/doc.php:272
+msgid "Cross Origin Opener Policy"
+msgstr ""
+
+#: source/work/doc.php:275
+msgid "Select Yes or No to have the plugin include the Cross-Origin-Opener-Policy header to your site"
+msgstr ""
+
+#: source/work/doc.php:286
+msgid "Allows the document to be added to its opener’s browsing context group unless the opener itself has a COOP of same-origin or same-origin-allow-popups"
+msgstr ""
+
+#: source/work/doc.php:287
+msgid "Retains references to newly opened windows or tabs which either don’t set COOP or which opt out of isolation by setting a COOP of unsafe-none"
+msgstr ""
+
+#: source/work/doc.php:288
+msgid "Isolates the browsing context exclusively to same-origin documents. Cross-origin documents are not loaded in the same browsing context"
+msgstr ""
+
+#: source/work/doc.php:296
+msgid "Content Security Policy Tab"
+msgstr ""
+
+#: source/work/doc.php:299
+msgid "Content Security Policy"
+msgstr ""
+
+#: source/work/doc.php:302
+msgid "Select Yes or No to have the plugin attempt to automatically generate a Content Security Policy. Selecting Yes, will open up a handful of text fields that you can add additional domains to. Please only include the FQDN, and please organize them accordingly"
+msgstr ""
+
+#: source/work/doc.php:304
+msgid "Use a space-delimited list if you need add more than one additional domain"
+msgstr ""
+
+#: source/work/doc.php:307
+msgid "This will attempt to parse the enqueued styles and scripts for the front-end of your site automatically, provided your theme has properly done this"
+msgstr ""
+
+#: source/work/doc.php:309
+msgid "This will add 2 additional headers to your site"
+msgstr ""
+
+#: source/work/doc.php:309
+msgid "and"
+msgstr ""
+
+#: source/work/doc.php:309
+msgid "configured with the detected and custom added domains to their respective content types"
+msgstr ""
+
+#: source/work/doc.php:314
+msgid "Wordpress Defaults"
+msgstr ""
+
+#: source/work/doc.php:317
+msgid "Select Yes or No to have the plugin automatically include Wordpress specific external resources in the Content Security Policy"
+msgstr ""
+
+#: source/work/doc.php:319
+msgid "I have left this as an unconditional field. There may be a point in we browsers futures where it may have a use other than just the CSP"
+msgstr ""
+
+#: source/work/doc.php:338
+msgid "CSP Header Directives"
+msgstr ""
+
+#: source/work/doc.php:350, source/work/doc.php:388
+msgid "Name"
+msgstr ""
+
+#: source/work/doc.php:362
+msgid "Permissions Policy Tab"
+msgstr ""
+
+#: source/work/doc.php:365
+msgid "Select Yes or No to have the plugin attempt to automatically generate a Permissions Policy. Selecting Yes, will open up a handful of directives and the sources for them.  If you select \"Source\" for any of them you will be allowed to enter a space-delimited list of URL's to be allowed as sources"
+msgstr ""
+
+#: source/work/doc.php:367
+msgid "Please make sure to use full URL's for the sources including the protocol used. (example"
+msgstr ""
+
+#: source/work/doc.php:376
+msgid "Permission/Feature Policy Directives"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:53
+msgid "Accelerometer"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:54
+msgid "Controls whether the current document is allowed to gather information about the acceleration of the device through the Accelerometer interface."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:58
+msgid "Ambient Light Sensor"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:59
+msgid "Controls whether the current document is allowed to gather information about the amount of light in the environment around the device through the AmbientLightSensor interface."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:63
+msgid "Autoplay"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:64
+msgid "Controls whether the current document is allowed to autoplay media requested through the HTMLMediaElement interface. When this policy is disabled and there were no user gestures, the Promise returned by HTMLMediaElement.play() will reject with a DOMException. The autoplay attribute on &lt;audio&gt; and &lt;video&gt; elements will be ignored."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:68
+msgid "Camera"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:69
+msgid "Controls whether the current document is allowed to use video input devices. When this policy is disabled, the Promise returned by getUserMedia() will reject with a NotAllowedError DOMException."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:73
+msgid "Display Capture"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:74
+msgid "Controls whether or not the current document is permitted to use the getDisplayMedia() method to capture screen contents. When this policy is disabled, the promise returned by getDisplayMedia() will reject with a NotAllowedError if permission is not obtained to capture the display's contents."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:78
+msgid "Encrypted Media"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:79
+msgid "Controls whether the current document is allowed to use the Encrypted Media Extensions API (EME). When this policy is disabled, the Promise returned by Navigator.requestMediaKeySystemAccess() will reject with a DOMException."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:83
+msgid "Full Screen"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:84
+msgid "Controls whether the current document is allowed to use Element.requestFullScreen(). When this policy is disabled, the returned Promise rejects with a TypeError."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:88
+msgid "Geo Location"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:89
+msgid "Controls whether the current document is allowed to use the Geolocation Interface. When this policy is disabled, calls to getCurrentPosition() and watchPosition() will cause those functions' callbacks to be invoked with a GeolocationPositionError code of PERMISSION_DENIED"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:93
+msgid "Gyroscope"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:94
+msgid "Controls whether the current document is allowed to gather information about the orientation of the device through the Gyroscope interface"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:99
+msgid "Human Interface Device"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:100
+msgid "Controls whether the current document is allowed to use the WebHID API to connect to uncommon or exotic human interface devices such as alternative keyboards or gamepads."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:104
+msgid "Identity Credentials Get"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:105
+msgid "Controls whether the current document is allowed to use the Federated Credential Management API (FedCM), and more specifically the navigator.credentials.get() method with an identity option."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:109
+msgid "Idle Detection"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:110
+msgid "Controls whether the current document is allowed to use the Idle Detection API to detect when users are interacting with their devices, for example to report \"available\"/\"away\" status in chat applications."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:115
+msgid "Magnetometer"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:116
+msgid "Controls whether the current document is allowed to gather information about the orientation of the device through the Magnetometer interface"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:120
+msgid "Microphone"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:121
+msgid "Controls whether the current document is allowed to use audio input devices. When this policy is disabled, the Promise returned by MediaDevices.getUserMedia() will reject with a NotAllowedError."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:125
+msgid "MIDI"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:126
+msgid "Controls whether the current document is allowed to use the Web MIDI API. When this policy is disabled, the Promise returned by Navigator.requestMIDIAccess() will reject with a DOMException"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:130
+msgid "Payment"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:131
+msgid "Controls whether the current document is allowed to use the Payment Request API. When this policy is enabled, the PaymentRequest() constructor will throw a SecurityError DOMException"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:135
+msgid "Picture in Picture"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:136
+msgid "Controls whether the current document is allowed to play a video in a Picture-in-Picture mode via the corresponding API"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:140
+msgid "Publicket Credentials Create"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:141
+msgid "Controls whether the current document is allowed to use the Web Authentication API to create new WebAuthn credentials, i.e., via navigator.credentials.create({publicKey})."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:145
+msgid "Publicket Credentials Get"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:146
+msgid "Controls whether the current document is allowed to use the Web Authentication API to retrieve already stored public-key credentials, i.e. via navigator.credentials.get({publicKey: ..., ...})"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:150
+msgid "Screen Wake Lock"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:151
+msgid "Controls whether the current document is allowed to use Screen Wake Lock API to indicate that the device should not dim or turn off the screen."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:155
+msgid "Serial"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:156
+msgid "Controls whether the current document is allowed to use the Web Serial API to communicate with serial devices, either directly connected via a serial port, or via USB or Bluetooth devices emulating a serial port."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:160
+msgid "Sync XHR"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:161
+msgid "Controls whether the current document is allowed to make synchronous XMLHttpRequest requests"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:165
+msgid "USB"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:166
+msgid "Controls whether the current document is allowed to use the WebUSB API"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:170
+msgid "Web Share"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:171
+msgid "Controls whether the current document is allowed to use the Navigator.share() method of the Web Share API to share text, links, images, and other content to arbitrary destinations of the user's choice."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:175
+msgid "XR Spatial Tracking"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:176
+msgid "Controls whether or not the current document is allowed to use the WebXR Device API to interact with a WebXR session"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:207
+msgid "Base URI"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:208
+msgid "Restricts the URLs which can be used in a document's <base> element. If this value is absent, then any URI is allowed."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:212
+msgid "Child Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:213
+msgid "Defines the valid sources for web workers and nested browsing contexts loaded using elements such as &lt;frame&gt; and &lt;iframe&gt;."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:217
+msgid "Connect/Ajax/XHR Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:218
+msgid "Restricts the URLs which can be loaded using script interfaces"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:222
+msgid "Default Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:223
+msgid "Serves as a fallback for the other fetch directives."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:227
+msgid "Font Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:228
+msgid "Specifies valid sources for fonts loaded using @font-face."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:232
+msgid "Form Action"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:233
+msgid "Restricts the URLs which can be used as the target of a form submissions from a given context."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:237
+msgid "Frame Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:238
+msgid "Specifies valid sources for nested browsing contexts loading using elements such as &lt;frame&gt; and &lt;iframe&gt;."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:242
+msgid "Frame Ancestors"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:243
+msgid "Specifies valid parents that may embed a page using &lt;frame&gt;, &lt;iframe&gt;, &lt;object&gt;, &lt;embed&gt;, or &lt;applet&gt;."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:247
+msgid "Image Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:248
+msgid "Specifies valid sources of images and favicons."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:252
+msgid "Manifest Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:253
+msgid "Specifies valid sources of application manifest files."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:257
+msgid "Media Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:258
+msgid "Specifies valid sources for loading media using the &lt;audio&gt; , &lt;video&gt; and &lt;track&gt; elements."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:262
+msgid "Object Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:263
+msgid "Specifies valid sources for the &lt;object&gt;, &lt;embed&gt;, and &lt;applet&gt; elements."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:267
+msgid "Sandbox"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:268
+msgid "Applies restrictions to a page's actions including preventing popups, preventing the execution of plugins and scripts, and enforcing a same-origin policy. Please see here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/sandbox\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/sandbox</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:272
+msgid "Script Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:273
+msgid "Specifies valid sources for JavaScript."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:277
+msgid "Script Source Elements"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:278
+msgid "Specifies valid sources for JavaScript &lt;script&gt; elements."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:282
+msgid "Script Source Attributes"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:283
+msgid "Specifies valid sources for JavaScript inline event handlers."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:287
+msgid "Style Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:288
+msgid "Specifies valid sources for stylesheets."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:292
+msgid "Style Source Elements"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:293
+msgid "Specifies valid sources for stylesheets &lt;style&gt; elements and &lt;link&gt; elements with rel=\"stylesheet\"."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:297
+msgid "Style Source Attributes"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:298
+msgid "Specifies valid sources for inline styles applied to individual DOM elements."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:302
+msgid "Worker Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-common.php:303
+msgid "Specifies valid sources for Worker, SharedWorker, or ServiceWorker scripts."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:75
+msgid "Security Headers"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:87
+msgid "The Security Header Generator <small>by <a href=\"https://kevinpirnie.com/\" target=\"_blank\">Kevin C. Pirnie</a></small>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:88
+msgid "Thank you for securing your site!"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:133
+msgid "Standard Security Headers"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:135, source/work/inc/kcp-cspgen-settings.php:154
+msgid "<p><strong>NOTE</strong><br />Make sure to check your web browsers <strong>Development Tools</strong> once you are finished configuring this. You will need to make sure you are not blocking necessary items for your website.</p>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:142
+msgid "Content Security Headers"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:144
+msgid "<p><strong>NOTE</strong><br />Make sure to check your web browsers <strong>Development Tools</strong> once you are finished configuring this. You will need to make sure you are not blocking necessary items for your website.<br /><br /><strong>Suggested:</strong><br />Add your domains to the necessary attribute prior to adding the external resource...</p>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:152
+msgid "Permissions Policy Headers"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:161
+msgid "Documentation"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:174
+msgid "Export/Import Settings"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:209, source/work/inc/kcp-cspgen-settings.php:530, source/work/inc/kcp-cspgen-settings.php:707
+msgid "Apply to Admin?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:210
+msgid "This will attempt to apply all headers to the admin side of your site in addition to the front-end."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:218
+msgid "Apply to the REST API?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:219
+msgid "This will attempt to apply all headers to the REST API of your site.<br /><strong>NOTE:</strong> Due to the default nature of the REST API, the headers will also be applied to the admin areas of the website. You will need to check for breakages after applying."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:227
+msgid "Include Strict Transport Security?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:228
+msgid "Setting this will add another header to force Strict Transport Security. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:236
+msgid "Cache Age"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:237
+msgid "The time, in seconds, that the browser should remember that a site is only to be accessed using HTTPS."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:247
+msgid "<strong>Include Subdomains?</strong>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:248
+msgid "If this optional parameter is specified, this rule applies to all of the site's subdomains as well."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:257
+msgid "<strong>Preload?</strong>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:258
+msgid "If you enable preload, you should change the cache age to 2 Years. (63072000)"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:267
+msgid "Enforce Certificate Transparency?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:268
+msgid "Setting this will add another header to enforce Certificate Transparency. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT</a><br /><strong>NOTE: </strong>This header is likely to be deprecated in the near future."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:276
+msgid "Configure Frame Sources?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:277
+msgid "Setting this will add another header to configure allowed frame sources. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:285, source/work/inc/kcp-cspgen-settings.php:375, source/work/inc/kcp-cspgen-settings.php:431, source/work/inc/kcp-cspgen-settings.php:454, source/work/inc/kcp-cspgen-settings.php:478
+msgid "Directives"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:286
+msgid "Setting this will add another header to configure site framing. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:288
+msgid "deny all framing"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:289
+msgid "deny all framing unless done from the origination domain"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:300
+msgid "Do you want to configure access methods?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:301
+msgid "Setting this will add another header for Access-Control-Allow-Methods. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Methods\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Methods</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:307
+msgid "Methods"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:308
+msgid "Select the methods you wish to allow.<br /><strong>NOTE:</strong> Most public websites require at least GET to be viewable online.<br /><strong>NOTE 2:</strong> This will block unselected methods."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:310
+msgid "GET"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:311
+msgid "HEAD"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:312
+msgid "POST"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:313
+msgid "PUT"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:314
+msgid "DELETE"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:315
+msgid "CONNECT"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:316
+msgid "OPTIONS"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:317
+msgid "TRACE"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:318
+msgid "PATCH"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:319
+msgid "Allow All"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:330
+msgid "Do you want to allow access control credentials?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:331
+msgid "Setting this will add another header for Access-Control-Allow-Credentials. See here for more information: <a href=https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:339
+msgid "Do you want to allow an access control origin?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:340
+msgid "Setting this will add another header for Access-Control-Allow-Origin. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:348
+msgid "Origin"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:349
+msgid "Set the allowed access origin here.  Can either be an asterisk: <code>*</code>, or a FQDN URL: <code>https://example.com</code><br /><strong>NOTE: </strong>If nothing is put in here, we will default to <code>*</code>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:357
+msgid "Do you want to prevent mime-type sniffing?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:358
+msgid "Setting this will add another header to force proper mime-types. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:366
+msgid "Do you want to configure origin referrers?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:367
+msgid "Setting this will add another header to configure allowed origin referrers. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:377
+msgid "no referrer"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:378
+msgid "no referrer on protocol downgrade"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:379
+msgid "origin only"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:380
+msgid "origin on cross-domain"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:381
+msgid "same origin"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:382
+msgid "strict origin"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:383
+msgid "strict origin on cross domain"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:384
+msgid "full referrer path"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:395
+msgid "Do you want to force downloads?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:396
+msgid "Setting this will add another header to downloading resources instead of directly openning them in the browser. See here for more information: <a href=\"https://www.nwebsec.com/HttpHeaders/SecurityHeaders/XDownloadOptions\" target=\"_blank\">https://www.nwebsec.com/HttpHeaders/SecurityHeaders/XDownloadOptions</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:404
+msgid "Do you want to block cross domain origins?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:405
+msgid "Setting this will add another header to block cross domain origins. See here for more information: <a href=\"https://webtechsurvey.com/response-header/x-permitted-cross-domain-policies\" target=\"_blank\">https://webtechsurvey.com/response-header/x-permitted-cross-domain-policies</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:413
+msgid "Do you want to upgrade insecure requests?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:414
+msgid "Setting this will add another header to upgrade insecure requests. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Upgrade-Insecure-Requests\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Upgrade-Insecure-Requests</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:422
+msgid "Do you want to configure a Cross-Origin-Embedder-Policy?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:423
+msgid "Setting this will add another header to set a Cross-Origin-Embedder-Policy. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:433, source/work/inc/kcp-cspgen-settings.php:480
+msgid "unsafe-none"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:434
+msgid "require-corp"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:445
+msgid "Do you want to configure a Cross-Origin-Resource-Policy?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:446
+msgid "Setting this will add another header to set a Cross-Origin-Resource-Policy. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:456
+msgid "same-site"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:457, source/work/inc/kcp-cspgen-settings.php:482
+msgid "same-origin"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:458
+msgid "cross-origin"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:469
+msgid "Do you want to configure a Cross-Origin-Opener-Policy?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:470
+msgid "Setting this will add another header to set a Cross-Origin-Opener-Policy. See here for more information: <a href=\"https://owasp.org/www-project-secure-headers/#cross-origin-opener-policy\" target=\"_blank\">https://owasp.org/www-project-secure-headers/#cross-origin-opener-policy</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:481
+msgid "same-origin-allow-popups"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:521
+msgid "Generate CSP?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:522
+msgid "Setting this will set the flag for generating a Content Security Policy.  See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:531
+msgid "This will attempt to apply the Content Security Policy Headers to the admin side of your site in addition to the front-end."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:540
+msgid "Include Wordpress Defaults?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:541
+msgid "This will include resources for the following: <br />google.com, gstatic.com, google-analytics.com, googletagmanager.com, yoast.com, w.org, gravatar.com, doubleclick.net, bootstrapcdn.com, and wpengine.com"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:550
+msgid "<strong>Basic Auth Username</strong>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:551
+msgid "Enter your Basic Auth Username, if your site has this protection. (aka: htaccess protection, or htpasswd"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:562
+msgid "<strong>Basic Auth Password</strong>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:563
+msgid "Enter your Basic Auth Password, if your site has this protection. (aka: htaccess protection, or htpasswd"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:654
+msgid "Extra Settings?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:655
+msgid "Injects the proper attribute when selected"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:587
+msgid "allow-downloads"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:588
+msgid "allow-downloads-without-user-activation"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:589
+msgid "allow-forms"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:590
+msgid "allow-modals"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:591
+msgid "allow-orientation-lock"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:592
+msgid "allow-pointer-lock"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:593
+msgid "allow-popups"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:594
+msgid "allow-popups-to-escape-sandbox"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:595
+msgid "allow-presentation"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:596
+msgid "allow-same-origin"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:597
+msgid "allow-scripts"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:598
+msgid "allow-storage-access-by-user-activation"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:599
+msgid "allow-top-navigation"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:600
+msgid "allow-top-navigation-by-user-activation"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:601
+msgid "allow-top-navigation-to-custom-protocols"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:698
+msgid "Do you want to configure a Feature Policy (aka Permissions-Policy)?"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:699
+msgid "Setting this will add another header to configure browser and frame permissions. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</a><br /><br /><strong>NOTE: </strong> Some of these features are not implemented for all browsers, and/or could be experimental.  Please read through that information and decide what features you need, and what audiences you need to apply to."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:708
+msgid "This will attempt to apply the Feature Policy Headers to the admin side of your site in addition to the front-end."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:717
+msgid "Allowed Policy Directives"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:718
+msgid "Select the policy directives you would like to allow, along with its origins. See here for more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy#directives\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy#directives</a>"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:760, source/work/inc/kcp-cspgen-settings.php:847
+msgid "None"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:761
+msgid "Any"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:762, source/work/inc/kcp-cspgen-settings.php:846
+msgid "Self"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:763
+msgid "Source"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:773
+msgid "Source Domains"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:774
+msgid "Space-delimited list of allowed source URIs. Please make sure they include the http(s):// and each is enclosed in quotes."
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:841
+msgid "Inline"
+msgstr ""
+
+#: source/work/inc/kcp-cspgen-settings.php:842
+msgid "Eval"
+msgstr ""

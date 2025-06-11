@@ -1,0 +1,470 @@
+/**
+ * 01. Base
+ */
+.kpshg{
+  position: relative;
+
+  label{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+}
+
+.kpshg-ab-icon{
+  top: 2px;
+}
+
+#screen-meta-links + .kpshg-options{
+  margin-top: 40px;
+}
+
+.kpshg-options{
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/**
+ * 01. 01. Header
+ */
+.kpshg-header{
+  position: relative;
+}
+
+.kpshg-header-inner{
+  padding: 25px;
+  transition: box-shadow .3s ease;
+
+  h1{
+    float: left;
+    font-size: 1.5em;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+
+    small{
+      font-size: 11px;
+      font-weight: 500;
+    }
+  }
+}
+
+/**
+ * 01. 02. Sticky
+ */
+.kpshg-sticky{
+
+  .kpshg-header-inner{
+    position: fixed;
+    z-index: 99;
+    top: 32px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+}
+
+/**
+ * 01. 03. Header Buttons
+ */
+.kpshg-buttons{
+  float: right;
+
+  .button{
+    margin: 0 2px;
+    line-height: 26px;
+
+    &:focus{
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .kpshg-save{
+    min-width: 72px;
+  }
+}
+
+.kpshg-header-left{
+  float: left;
+}
+
+.kpshg-header-right{
+  float: right;
+}
+
+/**
+ * 01. 04. Navigation
+ */
+.kpshg-nav{
+  display: block;
+  position: relative;
+  z-index: 10;
+  float: left;
+
+  ul{
+    clear: left;
+    margin: 0;
+    list-style-type: none;
+
+    li{
+      margin-bottom: 0;
+
+      a{
+        font-size: 13px;
+        position: relative;
+        display: block;
+        padding: 14px 12px;
+        text-decoration: none;
+        transition-property: color, background;
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+
+        &:focus{
+          outline: none;
+          box-shadow: none;
+        }
+      }
+
+      .kpshg-arrow:after{
+        content: "\f054";
+        display: inline-block;
+        font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+        font-weight: 900;
+        font-size: 9px;
+        line-height: 1;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        margin-top: -4px;
+      }
+
+      &.kpshg-tab-expanded{
+
+        .kpshg-arrow:after{
+          transform: rotate(90deg);
+        }
+
+        ul{
+          display: block;
+        }
+      }
+    }
+
+    ul{
+      display: none;
+      position: relative;
+
+      li{
+
+        a{
+          font-size: 12px;
+          padding: 12px 14px 12px 24px;
+        }
+      }
+    }
+  }
+
+  .kpshg-tab-icon{
+    width: 20px;
+    margin-right: 5px;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .kpshg-label-error{
+    margin-left: 4px;
+    vertical-align: top;
+  }
+}
+
+.kpshg-nav-normal{
+  width: 225px;
+
+  + .kpshg-content{
+    margin-left: 225px;
+  }
+}
+
+.kpshg-nav-inline{
+  width: 100%;
+
+  ul{
+
+    li{
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+}
+
+.kpshg-nav-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9;
+  width: 225px;
+}
+
+/**
+ * 01. 05. Wrapper
+ */
+.kpshg-wrapper{
+  position: relative;
+}
+
+/**
+ * 01. 06. Content
+ */
+.kpshg-content{
+  position: relative;
+  background-color: #fff;
+}
+
+/**
+ * 01. 07. Section
+ */
+.kpshg-sections{
+  float: left;
+  width: 100%;
+}
+
+.kpshg-section-title{
+  display: none;
+  padding: 20px 30px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+
+  h3{
+    margin: 0;
+    padding: 0 ;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .kpshg-section-icon{
+    margin-right: 5px;
+  }
+}
+
+/**
+ * 01. 08. Footer
+ */
+.kpshg-footer{
+  padding: 20px;
+  font-size: 11px;
+}
+
+/**
+ * 01. 09. Copyright
+ */
+.kpshg-copyright{
+  float: left;
+  margin-top: 5px;
+}
+
+/**
+ * 01. 10. Show All Settings
+ */
+.kpshg-search-all,
+.kpshg-show-all{
+  .kpshg-nav-background,
+  .kpshg-nav{
+    display: none;
+  }
+
+  .kpshg-content{
+    margin-left: 0;
+  }
+
+  .kpshg-section-title,
+  .kpshg-section{
+    display: block !important;
+  }
+}
+
+.kpshg-search-all{
+  .kpshg-section-title{
+    display: none !important;
+  }
+}
+
+//
+// Expand
+//
+.kpshg-expand-all{
+  float: left;
+  padding: 0 8px;
+  margin-right: 4px;
+  z-index: 1;
+  font-size: 13px;
+  line-height: 30px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 2px;
+  transition: all .2s;
+
+  span{
+    font-size: 11px;
+    vertical-align: middle;
+  }
+}
+
+/**
+ * 01. 11. Search Input
+ */
+.kpshg-search{
+  float: left;
+
+  input{
+    margin: 0 2px 0 0;
+    border: none;
+    font-size: 12px;
+    line-height: 30px;
+    min-height: 30px;
+    text-align: inherit;
+    padding: 0 10px;
+    border-radius: 2px;
+    box-shadow: none;
+
+    &:focus{
+      box-shadow: none;
+    }
+  }
+}
+
+.kpshg-saving{
+
+  .kpshg-buttons,
+  .kpshg-content{
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}
+
+/**
+ * 01. 12. Metabox
+ */
+.kpshg-metabox{
+  margin: -6px -12px -12px -12px;
+
+  .kpshg-field{
+    padding: 20px;
+  }
+
+  .kpshg-section-title{
+    padding: 20px;
+  }
+}
+
+.block-editor-page{
+
+  .kpshg-metabox{
+    margin: -6px -14px -14px -14px;
+  }
+}
+
+.block-editor-editor-skeleton__content{
+
+  .kpshg-metabox{
+    border-left: 1px solid #e2e4e7;
+    border-right: 1px solid #e2e4e7;
+  }
+}
+
+.kpshg-sections-reset{
+  float: left;
+  width: 100%;
+  text-align: right;
+  border-top: 1px solid #eee;
+
+  .kpshg-button-cancel,
+  input{
+    display: none;
+  }
+
+  label{
+    padding: 10px;
+  }
+
+  span{
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+
+  input:checked ~ .kpshg-button-reset{
+    display: none;
+  }
+
+  input:checked ~ .kpshg-button-cancel{
+    display: inline-block;
+  }
+
+}
+
+#side-sortables{
+
+  .kpshg-section-title{
+    padding: 12px;
+  }
+
+  .kpshg-field{
+    padding: 10px 15px;
+
+    .kpshg-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 6px;
+    }
+
+    .kpshg-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .kpshg-field-text input{
+    width: 100%;
+  }
+
+  .kpshg-notice{
+    padding: 10px 15px;
+  }
+}
+
+/**
+ * 01. 13. Comment Metabox
+ */
+.kpshg-comment-metabox{
+  margin: -6px -12px -12px -12px;
+
+  .kpshg-field{
+    padding: 20px;
+  }
+
+  .kpshg-section-title{
+    padding: 20px;
+  }
+}
+
+
+/**
+ * 01. 14. Help Tooltip
+ */
+.kpshg-tooltip{
+  position: absolute;
+  z-index: 5000001;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px 12px;
+  max-width: 200px;
+  color: #fff;
+  background-color: #000;
+  background-color: rgba(black, 0.85);
+  border-radius: 4px;
+}

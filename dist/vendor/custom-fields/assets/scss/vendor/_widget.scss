@@ -1,0 +1,67 @@
+/**
+ * 04. Widget
+ */
+.kpshg-widgets{
+
+  > .kpshg-field{
+    position: relative;
+    top: -1px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 12px 15px;
+
+    .kpshg-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    .kpshg-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .kpshg-field-text input{
+    width: 100%;
+  }
+
+  .kpshg-field-notice .kpshg-notice{
+    padding: 15px;
+  }
+}
+
+.control-section{
+
+  .kpshg-widgets{
+
+    > .kpshg-field{
+      margin-left: -10px;
+      margin-right: -10px;
+      padding: 10px 12px;
+    }
+  }
+}
+
+.wp-block{
+
+  .kpshg-widgets{
+    font-size: 13px;
+
+    > .kpshg-field{
+      margin-left: -10px;
+      margin-right: -10px;
+
+      .button-primary{
+        color: #fff;
+      }
+
+      > .kpshg-title{
+
+        > h4{
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

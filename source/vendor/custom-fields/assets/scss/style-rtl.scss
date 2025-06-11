@@ -1,0 +1,728 @@
+/**
+ *
+ * ---------------------------------------------------------
+ * KPSHG FRAMEWORK RTL CSS MAP
+ * ---------------------------------------------------------
+ *
+ * 01. Base
+ *     01. 01. Header
+ *     01. 02. Header Buttons
+ *     01. 03. Navigation
+ *     01. 04. Content
+ *     01. 05. Section
+ *     01. 06. Show All Settings
+ *     01. 07. Search Input
+ *     01. 08. Copyright
+ *     01. 09. Metabox
+ * 02. Fields
+ *     02. 01. Field: typography
+ *     02. 02. Field: checkbox, radio
+ *     02. 03. Field: switcher
+ *     02. 04. Field: upload
+ *     02. 05. Field: group
+ *     02. 06. Field: repeater
+ *     02. 07. Field: help
+ *     02. 08. Field: icon
+ *     02. 09. Field: gallery
+ *     02. 10. Field: sorter
+ *     02. 11. Field: tabbed
+ *     02. 12. Field: media
+ *     02. 13. Field: notice
+ *     02. 14. Field: border, spacing, dimensions
+ *     02. 15. Field: background
+ *     02. 16. Field: spinner
+ *     02. 17. Field: slider
+ *     02. 18. Field: button_set
+ *     02. 19. Field: link_color
+ *     02. 20. Field: color_group
+ *     02. 21. Field: palette
+ *     02. 22. Field: accordion
+ *     02. 23. Field: date
+ *     02. 24. Field: map
+ *     02. 25. Field: sortable
+ *     02. 26. Field: number
+ * 03. Taxonomy
+ * 04. Profile
+ * 05. Nav Menu
+ * 06. Modal
+ * 07. Customizer
+ * 08. Responsive
+ * 09. Others
+ *
+ * ---------------------------------------------------------
+ *
+ */
+
+/**
+ * 01. Base
+ */
+.kpshg-options{
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/**
+ * 01. 01. Header
+ */
+.kpshg-header{
+  h1{
+    float: right;
+  }
+
+  fieldset{
+    float: left;
+  }
+}
+
+/**
+ * 01. 02. Header Buttons
+ */
+.kpshg-buttons{
+  float: left;
+  direction: ltr;
+}
+
+.kpshg-header-left{
+  float: right;
+}
+
+.kpshg-header-right{
+  float: left;
+}
+
+/**
+ * 01. 03. Navigation
+ */
+.kpshg-nav{
+  float: right;
+
+  ul{
+    clear: right;
+
+    li{
+      .kpshg-active:after{
+        right: auto;
+        left: 0;
+        border-left-color: #fff;
+        border-right-color: transparent;
+      }
+
+      .kpshg-arrow:after{
+        content: "\f053";
+        right: auto;
+        left: 10px;
+      }
+
+      &.kpshg-tab-expanded .kpshg-arrow:after{
+        transform: rotate(-90deg);
+      }
+    }
+
+    ul{
+      li{
+        a{
+          padding-right: 25px;
+          padding-left: 15px;
+        }
+      }
+
+      &:before{
+        left: auto;
+        right: 15px;
+      }
+    }
+  }
+
+  .kpshg-tab-icon{
+    margin-left: 5px;
+    margin-right: 0;
+  }
+}
+
+.kpshg-nav-background{
+  left: auto;
+  right: 0;
+}
+
+/**
+ * 01. 04. Content
+ */
+.kpshg-content{
+  margin-left: 0;
+  margin-right: 225px;
+}
+
+/**
+ * 01. 05. Section
+ */
+.kpshg-sections{
+  float: right;
+}
+
+/**
+ * 01. 06. Show all options
+ */
+.kpshg-show-all .kpshg-content{
+  margin-right: 0;
+  overflow: hidden;
+}
+
+.kpshg-expand-all{
+  float: right;
+  right: auto;
+  left: 40px;
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+/**
+ * 01. 07. Search Input
+ */
+.kpshg-search{
+  float: right;
+
+  input{
+    margin: 0 0 0 5px;
+  }
+}
+
+/**
+ * 01. 08. Copyright
+ */
+.kpshg-copyright{
+  float: right;
+}
+
+/**
+ * 01. 09. Metabox
+ */
+.kpshg-metabox{
+  margin: -6px -12px -12px -12px;
+
+  .kpshg-section-title{
+    padding: 20px;
+  }
+}
+
+.kpshg-section-title{
+
+  .kpshg-section-icon{
+    margin-left: 5px;
+    margin-right: 0;
+  }
+}
+
+/**
+ * 02. Fields
+ */
+.kpshg-field{
+
+  .kpshg-title{
+    float: right;
+  }
+
+  .kpshg-fieldset{
+    float: left;
+  }
+}
+
+.kpshg-pseudo-field{
+  padding: 0 0 0 5px !important;
+}
+
+/**
+ * 02. 01. Field: typography
+ */
+.kpshg-field-typography{
+
+  select{
+    margin: 0;
+    width: 100%;
+  }
+
+  .kpshg--blocks-inputs{
+    .kpshg--blocks{
+      flex-direction: row-reverse;
+    }
+  }
+
+  .kpshg--unit{
+    left: 4px;
+    right: auto;
+  }
+}
+
+/**
+ * 02. 02. Field: checkbox, radio
+ */
+.kpshg-field-checkbox,
+.kpshg-field-radio{
+
+  ul ul li{
+    margin-left: 0;
+    margin-right: 8px;
+
+    &:first-child{
+      margin-right: 0;
+    }
+  }
+
+  .kpshg--inline-list li{
+    margin-right: 0;
+    margin-left: 15px;
+  }
+
+  .kpshg--text{
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
+
+/**
+ * 02. 03. Field: switcher
+ */
+.kpshg-field-switcher{
+
+  .kpshg--switcher{
+    float: right;
+  }
+
+  .kpshg--label{
+    float: right;
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
+
+/**
+ * 02. 04. Field: upload
+ */
+.kpshg-field-upload{
+
+  .kpshg--remove,
+  .kpshg--button{
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
+
+/**
+ * 02. 05. Field: group
+ */
+.kpshg-field-group{
+
+  .kpshg-cloneable-title{
+    padding: 15px 10px 15px 65px;
+  }
+
+  .kpshg-cloneable-helper{
+    right: auto;
+    left: 10px;
+  }
+}
+
+/**
+ * 02. 06. Field: repeater
+ */
+.kpshg-field-repeater{
+
+  .kpshg-repeater-helper{
+    border-left: 0;
+    border-right: 1px solid #eee;
+  }
+}
+
+/**
+ * 02. 07. Field: help
+ */
+.kpshg-help{
+  right: auto;
+  left: 5px;
+}
+
+/**
+ * 02. 08. Field: icon
+ */
+.kpshg-field-icon{
+
+  .button{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .kpshg-icon-preview i{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+/**
+ * 02. 09. Field: gallery
+ */
+.kpshg-field-gallery{
+
+  ul li{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .button{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+/**
+ * 02. 11. Field: tabbed
+ */
+.kpshg-field-tabbed{
+
+  .kpshg-tabbed-nav{
+
+    .kpshg--icon{
+      padding-right: 0;
+      padding-left: 5px;
+    }
+
+    a{
+      margin-right: 0;
+      margin-left: 5px;
+    }
+  }
+}
+
+/**
+ * 02. 12. Field: media
+ */
+.kpshg-field-media{
+
+  .button{
+    margin-left: 0;
+    margin-right: 7px;
+  }
+
+  .hidden + .button{
+    margin-right: 0;
+  }
+}
+
+/**
+ * 02. 13. Field: notice
+ */
+.kpshg-notice{
+  border-left: none;
+  border-right-style: solid;
+  border-right-width: 4px;
+}
+
+/**
+ * 02. 14. Field: border, spacing, dimensions
+ */
+.kpshg-field-dimensions,
+.kpshg-field-spacing,
+.kpshg-field-border{
+
+  .kpshg--input,
+  .kpshg-fieldset{
+    direction: ltr;
+  }
+
+  .kpshg--inputs,
+  .kpshg--color{
+    float: right;
+  }
+
+  .kpshg--color{
+    margin-right: 4px;
+    direction: rtl;
+  }
+}
+
+/**
+ * 02. 15. Field: background
+ */
+.kpshg-field-background{
+
+  .kpshg--block{
+    float: right;
+  }
+
+  .kpshg--select,
+  .kpshg--media{
+    padding-right: 0;
+  }
+
+  .kpshg--title{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+/**
+ * 02. 16. Field: spinner
+ */
+.kpshg-field-spinner{
+
+  .kpshg--spin{
+    float: right;
+    direction: ltr;
+  }
+}
+
+/**
+ * 02. 17. Field: slider
+ */
+.kpshg-field-slider{
+
+  .kpshg-slider-ui{
+    direction: ltr;
+    margin-right: 0;
+    margin-left: 15px;
+  }
+
+  .kpshg--input{
+    direction: ltr;
+  }
+}
+
+/**
+ * 02. 18. Field: button_set
+ */
+.kpshg-field-button_set{
+
+  .kpshg--button-group{
+    float: right;
+  }
+}
+
+/**
+ * 02. 19. Field: link_color
+ */
+.kpshg-field-link_color{
+
+  .kpshg--left{
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+  }
+}
+
+/**
+ * 02. 20. Field: color_group
+ */
+.kpshg-field-color_group{
+
+  .kpshg--left{
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+  }
+}
+
+/**
+ * 02. 21. Field: palette
+ */
+.kpshg-field-palette{
+
+  .kpshg--palette{
+    margin-right: 0;
+    margin-left: 10px;
+  }
+}
+
+/**
+ * 02. 22. Field: accordion
+ */
+.kpshg-field-accordion{
+
+  .kpshg--icon{
+    margin-right: 0;
+    margin-left: 2px;
+  }
+}
+
+/**
+ * 02. 23. Field: date
+ */
+.kpshg-field-date{
+
+  .kpshg--to {
+    margin-left: 0;
+    margin-right: 7px;
+  }
+}
+
+/**
+ * 02. 24. Field: map
+ */
+.kpshg-field-map{
+
+  .kpshg--map-input:last-child {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+}
+
+/**
+ * 02. 25. Field: sortable
+ */
+.kpshg-field-sortable{
+
+  .kpshg-sortable-helper{
+    border-left: none;
+    border-right: 1px solid #eee;
+  }
+}
+
+/**
+ * 02. 26. Field: number
+ */
+.kpshg-field-number{
+
+  .kpshg--wrap{
+    float: right;
+  }
+
+  .kpshg--unit{
+    left: 4px;
+    right: auto;
+  }
+}
+
+/**
+ * 03. Taxonomy
+ */
+.kpshg-taxonomy-add-fields{
+  margin-right: 0;
+  margin-left: 30px;
+
+  .kpshg-field > .kpshg-fieldset > .kpshg-help{
+    left: -5px;
+    right: auto;
+  }
+}
+
+.kpshg-taxonomy-edit-fields{
+  margin-right: 0;
+  margin-left: 35px;
+
+  .kpshg-field > .kpshg-fieldset > .kpshg-help{
+    right: auto;
+    left: -5px;
+  }
+}
+
+/**
+ * 04. Profile
+ */
+.kpshg-profile-options{
+
+  > h2 > .fa{
+    padding-right: 0;
+    padding-left: 7px;
+  }
+
+  > .kpshg-field{
+
+    > .kpshg-fieldset{
+
+      > .kpshg-help{
+        left: -5px;
+        right: auto;
+      }
+    }
+  }
+}
+
+/**
+ * 05. Nav Menu
+ */
+.kpshg-nav-menu-options{
+
+  > .kpshg-fields{
+    margin-left: 0;
+    margin-right: -10px;
+  }
+}
+
+.kpshg-nav-menu-title {
+  padding-left: 14px;
+  padding-right: 12px;
+}
+
+.kpshg-nav-menu-icon{
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 06. Modal
+ */
+.kpshg-modal-content{
+
+  .kpshg-field{
+    padding: 15px 15px 15px 30px;
+  }
+}
+
+.kpshg-modal-title{
+  padding: 0 16px 0 36px;
+}
+
+.kpshg-modal-close{
+  right: auto;
+  left: 0;
+}
+
+/**
+ * 07. Customizer
+ */
+.control-section{
+
+  .kpshg-field{
+
+    .kpshg-fieldset{
+      margin-right: 0;
+    }
+  }
+}
+
+/**
+ * 08. Responsive
+ */
+@media only screen and (max-width:1200px){
+  .kpshg-metabox .kpshg-field .kpshg-fieldset{
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width:782px){
+  .kpshg .kpshg-fieldset,
+  .kpshg .kpshg-content{
+    margin-right: 0;
+  }
+}
+
+/**
+ * 09. Others
+ */
+.kpshg-field{
+
+  .kpshg--transparent-slider{
+    margin-left: 0;
+    margin-right: 2px;
+
+    .ui-slider-handle{
+      margin: 0 -11px;
+    }
+  }
+
+  .kpshg--transparent-offset{
+    background-position: center right;
+  }
+
+  .kpshg--transparent-text{
+    right: auto;
+    left: 10px;
+  }
+}

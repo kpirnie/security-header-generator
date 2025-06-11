@@ -1,0 +1,166 @@
+/**
+ * 12. Responsive
+ */
+@media only screen and (max-width:1200px){
+
+  .kpshg-metabox{
+
+    .kpshg-field{
+
+      .kpshg-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .kpshg-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:782px){
+
+  .kpshg-header-inner{
+    text-align: center;
+
+    h1{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .kpshg-form-result{
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .kpshg-search,
+  .kpshg-header-right,
+  .kpshg-header-left{
+    width: 100%;
+  }
+
+  .kpshg-search{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .kpshg-footer{
+    text-align: center;
+  }
+
+  .kpshg-buttons{
+    float: none;
+  }
+
+  .kpshg-copyright{
+    float: none;
+    margin-top: 10px;
+  }
+
+  .kpshg-nav,
+  .kpshg-expand-all,
+  .kpshg-reset-section,
+  .kpshg-nav-background{
+    display: none !important;
+  }
+
+  .kpshg-nav-normal + .kpshg-content{
+    margin-left: 0;
+  }
+
+  .kpshg-section-title,
+  .kpshg-section{
+    display: block !important;
+  }
+
+  .kpshg-field{
+
+    .kpshg-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .kpshg-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .kpshg-field-color{
+
+    .button.wp-picker-clear{
+      padding: 0 8px;
+      line-height: 2.14285714;
+      min-height: 32px;
+    }
+  }
+
+  .kpshg-modal-inner{
+    width: 350px;
+    height: 400px;
+  }
+
+  .kpshg-modal-content{
+    height: 237px;
+  }
+
+  .kpshg-icon-dialog{
+
+    .kpshg-modal-inner{
+      width: 305px;
+      height: 380px;
+    }
+
+    .kpshg-modal-content{
+      height: 267px;
+    }
+  }
+
+  .kpshg-modal-icon{
+
+    .kpshg-modal-inner{
+      width: 330px;
+      height: 385px;
+    }
+
+    .kpshg-modal-content{
+      height: 252px;
+    }
+  }
+
+  .kpshg-profile-options,
+  .kpshg-taxonomy-edit-fields{
+
+    > .kpshg-field{
+
+      > .kpshg-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      > .kpshg-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+
+  .kpshg-nav-menu-options{
+
+    > .kpshg-fields{
+      margin-left: -10px;
+      margin-right: -10px;
+
+      > .kpshg-field{
+        padding: 10px;
+      }
+    }
+  }
+}

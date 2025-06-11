@@ -1,0 +1,179 @@
+/**
+ * 05. Widget
+ */
+.control-section{
+
+  .kpshg-field{
+    padding: 0;
+
+    .kpshg-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 6px;
+
+      h4{
+        display: block;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: 600;
+        color: inherit;
+      }
+    }
+
+    .kpshg-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .kpshg-help{
+    top: -5px;
+    right: -5px;
+  }
+
+  .kpshg-field-select select{
+    width: 100%;
+  }
+
+  .kpshg-field-heading{
+    color: inherit;
+    font-size: 14px;
+    line-height: 1em;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .kpshg-field-subheading{
+    color: inherit;
+    font-size: 11px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px 15px;
+  }
+
+  .kpshg-subtitle-text{
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .kpshg-field-submessage .kpshg-submessage{
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .kpshg-fieldset{
+
+    .kpshg-field-submessage .kpshg-submessage,
+    .kpshg-field-heading,
+    .kpshg-field-subheading{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .kpshg-field-date{
+
+    .kpshg--to{
+      margin-left: 0;
+    }
+  }
+
+  .kpshg-field-sorter{
+
+    ul li{
+      padding: 5px;
+    }
+
+    .kpshg-modules{
+      float: none;
+      width: 100%;
+    }
+
+    .kpshg-modules:first-child{
+      padding-right: 0;
+      padding-bottom: 15px;
+    }
+  }
+
+  .kpshg-field-background{
+
+    .kpshg--background-attributes{
+      flex-direction: column;
+    }
+  }
+
+  .kpshg-field-spacing{
+    input{
+      width: 90px;
+    }
+  }
+
+  .kpshg-field-border{
+
+    .kpshg--input{
+      flex: 1 50%;
+    }
+
+    input,
+    select{
+      width: 100%;
+    }
+  }
+
+  .kpshg-field-spinner{
+    input{
+      width: 50px;
+    }
+  }
+
+  .kpshg-field-number{
+
+    .kpshg--wrap{
+      width: 100%;
+    }
+  }
+
+  .kpshg-field-backup{
+
+    .kpshg-export-data{
+      display: none;
+    }
+  }
+
+  .kpshg-field-fieldset{
+
+    .kpshg-fieldset-content{
+      border-color: #e5e5e5;
+    }
+  }
+
+  .kpshg-tabbed-content,
+  .kpshg-sortable-content,
+  .kpshg-repeater-content,
+  .kpshg-fieldset-content,
+  .kpshg-cloneable-content,
+  .kpshg-accordion-content{
+
+    > .kpshg-field{
+      padding: 10px;
+
+      .kpshg-title{
+        margin-bottom: 5px;
+      }
+
+      h4{
+        font-size: 12px;
+      }
+    }
+  }
+
+  .kpshg-depend-hidden.kpshg-depend-on{
+    display: none !important;
+  }
+
+  .kpshg-depend-visible.kpshg-depend-on{
+    border-top: 0 !important;
+  }
+}

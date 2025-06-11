@@ -1,0 +1,34 @@
+.wpsh_content_security_policy {
+    display: flex;
+    flex-flow: row wrap;
+}
+.kpshg-section.hidden{display:none !important;}
+.kpsh-half-field {
+    padding-left: 40px;
+    padding-right: 0px;
+    width: calc(100% * (1/2) - 40px - 1px);
+    flex-grow: 1;
+}.kpsh-half-field input[type='text'] {width:95%;}.kpsh-half-field-hidden{visibility: hidden !important;}
+.kpsh-half-field:nth-child(even){
+    padding-left:10px;
+}
+.kpshg-nav-background, .kpshg-tab-item, .kpshg-theme-dark .kpshg-nav ul li a,
+.kpshg-theme-dark .kpshg-header-inner, .kpshg-theme-dark .kpshg-footer {
+    background: #01123c !important;
+}
+.kpshg-save, .kpshg-tab-expanded, .kpshg-nav ul li a.kpshg-active, .kpshg-theme-dark .kpshg-search input,
+.kpshg-theme-dark .kpshg-expand-all {
+    background: #2d7696 !important;
+}
+.kpshg-theme-dark .kpshg-header-inner h1 small {
+    color: #2d7696 !important;
+}
+.kpshg-theme-dark .kpshg-search input, .kpshg-theme-dark .kpshg-search input::placeholder {
+    color:#fff !important;
+}
+
+/* Footer */
+.kpshg-footer>.kpshg-buttons{padding-top:25px;}
+
+/* Standard Header Fields */
+.kpshg-depend-hidden>.kpshg-title{text-align:right;}

@@ -1,0 +1,53 @@
+{
+  "name": "security-header-generator",
+  "package": "Security Header Generator",
+  "version": "5.3.01",
+  "description": "This plugin generates the proper security HTTP response headers to keep your site secured.",
+  "main": "gulpfile.js",
+  "source": "source",
+  "distribution": "dist",
+  "production": {
+    "shouldcopy": true,
+    "path": "/home/kpirnie/SVN/security-header-generator/trunk"
+  },
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/kp-development/wordpress/plugins/wordpress-security-header-generator.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": {
+    "name": "Kevin Pirnie",
+    "email": "me@kpirnie.com",
+    "url": "https://kevinpirnie.com/"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/kp-development/wordpress/plugins/wordpress-security-header-generator/issues",
+    "email": "me@kpirnie.com"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "homepage": "https://kevinpirnie.com/kevin-pirnies-articles/wordpress-plugin-security-header-generator/",
+  "devDependencies": {
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-clean": "latest",
+    "gulp-concat": "latest",
+    "gulp-cssnano": "latest",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-sass": "latest",
+    "gulp-svgo": "^1.2.5",
+    "gulp-uglify": "latest",
+    "gulp-wp-pot": "latest",
+    "sass": "latest"
+  },
+  "dependencies": {
+    "node-fetch": "latest"
+  }
+}
