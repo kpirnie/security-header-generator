@@ -73,6 +73,7 @@ Please understand, I cannot generate the proper headers for you through the word
 * Update: PHP 8.2 requirement
 * Update: Defaults for WordPress
     * JS controller was causing issues with fields no populating properly
+* Update: Documentation
 * Remove: Enforce Certificate Transparency
     * Deprecated: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Expect-CT
 
