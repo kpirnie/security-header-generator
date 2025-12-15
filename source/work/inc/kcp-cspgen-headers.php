@@ -285,6 +285,7 @@ if( ! class_exists( 'KCP_CSPGEN_Headers' ) ) {
 
             }
 
+            /* DEPRECATED
             // include expect CT setting
             $_apply_ect = filter_var( get_our_option( 'include_expectct' ), FILTER_VALIDATE_BOOLEAN );
 
@@ -303,6 +304,7 @@ if( ! class_exists( 'KCP_CSPGEN_Headers' ) ) {
                 }
 
             }
+                */
 
             // include Options setting
             $_apply_ofs = filter_var( get_our_option( 'include_ofs' ), FILTER_VALIDATE_BOOLEAN );

@@ -3,9 +3,9 @@ Contributors: kevp75
 Donate link: https://paypal.me/kevinpirnie
 Tags: security, security headers, content security policy, permissions, permissions policy
 Requires at least: 6.0.9
-Tested up to: 6.9
-Requires PHP: 8.1
-Stable tag: 5.3.01
+Tested up to: 7.0
+Requires PHP: 8.2
+Stable tag: 5.3.67
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
  
@@ -67,6 +67,14 @@ Please understand, I cannot generate the proper headers for you through the word
 6. Headers Set
  
 == Changelog ==
+
+= 5.3.67 =
+* Verify: Core 7.0
+* Update: PHP 8.2 requirement
+* Update: Defaults for WordPress
+    * JS controller was causing issues with fields no populating properly
+* Remove: Enforce Certificate Transparency
+    * Deprecated: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Expect-CT
 
 = 5.3.01 =
 * Verify: WP Core 6.9

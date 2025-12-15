@@ -260,6 +260,7 @@ if( ! class_exists( 'KCP_CSPGEN_Settings' ) ) {
                     'dependency' => array( 'include_sts', '==', true ),
                 ),
 
+                /* DEPRECATED
                 // include Expect-CT header
                 array(
                     'id' => 'include_expectct',
@@ -268,6 +269,7 @@ if( ! class_exists( 'KCP_CSPGEN_Settings' ) ) {
                     'desc' => __( 'Setting this will add another header to enforce Certificate Transparency. See here for more information: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT</a><br /><strong>NOTE: </strong>This header is likely to be deprecated in the near future.', 'security-header-generator' ),
                     'default' => false,
                 ),
+                */
                 
                 // frame sources
                 array(
@@ -402,7 +404,7 @@ if( ! class_exists( 'KCP_CSPGEN_Settings' ) ) {
                     'id' => 'include_crossdomain',
                     'type' => 'switcher',
                     'title' => __( 'Do you want to block cross domain origins?', 'security-header-generator' ),
-                    'desc' => __( 'Setting this will add another header to block cross domain origins. See here for more information: <a href="https://webtechsurvey.com/response-header/x-permitted-cross-domain-policies" target="_blank">https://webtechsurvey.com/response-header/x-permitted-cross-domain-policies</a>', 'security-header-generator' ),
+                    'desc' => __( 'Setting this will add another header to block cross domain origins. See here for more information: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Permitted-Cross-Domain-Policies" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Permitted-Cross-Domain-Policies</a>', 'security-header-generator' ),
                     'default' => false,
                 ),
                 

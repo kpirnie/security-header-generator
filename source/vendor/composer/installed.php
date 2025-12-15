@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'kevinpirnie/security-header-generator',
-        'pretty_version' => '5.0.11',
-        'version' => '5.0.11.0',
+        'pretty_version' => '5.3.67',
+        'version' => '5.3.67.0',
         'reference' => null,
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
@@ -11,8 +11,8 @@
     ),
     'versions' => array(
         'kevinpirnie/security-header-generator' => array(
-            'pretty_version' => '5.0.11',
-            'version' => '5.0.11.0',
+            'pretty_version' => '5.3.67',
+            'version' => '5.3.67.0',
             'reference' => null,
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',

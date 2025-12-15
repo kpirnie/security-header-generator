@@ -68,20 +68,6 @@ if( ! current_user_can( 'manage_options' ) ) {
                     </ul>
                 </li>
                 <li>
-                    <strong><?php _e( 'Enforce Certificate Transparency', 'security-header-generator' ); ?></strong>
-                    <ul class="the_list">
-                        <li>
-                            <?php _e( 'Select Yes or No to have the plugin add a header to enforce Certificate Transparency', 'security-header-generator' ); ?>.
-                            <ul class="the_list">
-                                <li>
-                                    <?php _e( 'See here for more information', 'security-header-generator' ); ?>:
-                                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
                     <strong><?php _e( 'Frame Sources', 'security-header-generator' ); ?></strong>
                     <ul class="the_list">
                         <li>

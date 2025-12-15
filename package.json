@@ -1,7 +1,7 @@
 {
   "name": "security-header-generator",
   "package": "Security Header Generator",
-  "version": "5.3.01",
+  "version": "5.3.67",
   "description": "This plugin generates the proper security HTTP response headers to keep your site secured.",
   "main": "gulpfile.js",
   "source": "source",
